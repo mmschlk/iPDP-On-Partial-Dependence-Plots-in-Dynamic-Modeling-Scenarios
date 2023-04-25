@@ -4,7 +4,6 @@ from matplotlib import pyplot as plt
 from river.stream import iter_pandas
 from sklearn.model_selection import train_test_split
 
-from ixai import GeometricReservoirStorage
 from ixai.explainer.pdp import BatchPDP, IncrementalPDP
 
 import os
